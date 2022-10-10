@@ -17,16 +17,21 @@ Considerations:
 Example Runs: 
 
 - Example 1: 
+  ```
   Input:    [['SFO','EWR']]
   Result:   ['SFO', 'EWR']
   Explanation: An individual only took one trip (nonstop flight).
-
+  ```
 - Example 2: 
+  ```
   Input:    [['ATL', 'EWR'], ['SFO', 'ATL']] 
   Result:   ['SFO', 'EWR']
   Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'EWR']]` and report the starting and ending airports.
+  ```
 
 - Example 3: 
+  ```
   Input:    [['IND', 'EWR'], ['SFO', 'ATL'], ['GSO', 'IND'], ['ATL', 'GSO']]
   Result:   ['SFO', 'EWR']
   Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'GSO'], ['GSO', 'IND'], ['IND', 'EWR']]` and report the starting and ending airports.
+  ```
