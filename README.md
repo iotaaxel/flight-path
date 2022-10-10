@@ -3,19 +3,17 @@
 Overview: 
 - In order to determine the flight path of a person, we must sort through all of their flight records.
 
-Goal (WIP): 
+Goal: 
 - Create a microservice API to track a given person’s flight path. 
 
-Requirements (WIP): 
+Requirements: 
 - The API should accept a request that includes a list of flights, which are defined by a source and destination airport code. 
-
 - The API must listen on port 8080 and expose the flight path tracker under /calculate endpoint
 
 Considerations: 
 - These flights may not be listed in order and will need to be sorted to find the total flight paths starting and ending airports.
 
 Example Runs: 
-
 - Example 1: 
   ```
   Input:    [['SFO','EWR']]
@@ -26,12 +24,18 @@ Example Runs:
   ```
   Input:    [['ATL', 'EWR'], ['SFO', 'ATL']] 
   Result:   ['SFO', 'EWR']
-  Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'EWR']]` and report the starting and ending airports.
+  Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'EWR']]`.
   ```
-
 - Example 3: 
   ```
   Input:    [['IND', 'EWR'], ['SFO', 'ATL'], ['GSO', 'IND'], ['ATL', 'GSO']]
   Result:   ['SFO', 'EWR']
-  Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'GSO'], ['GSO', 'IND'], ['IND', 'EWR']]` and report the starting and ending airports.
+  Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'GSO'], ['GSO', 'IND'], ['IND', 'EWR']]`.
   ```
+
+Roadmap:
+- [ ] Basic API functionality (i.e. take flight list and output starting and ending airports)
+- [ ] Add unit tests and error handling (ex: empty list, invalid input, no common airport codes)
+- [ ] Determine the architecture and tech stack (could use WASM, GraphQL, Postgres, Docker)
+- [ ] Determine UI/UX design (could do a mockup in Figma)
+- [ ] Record a live demo
