@@ -39,3 +39,4 @@ Roadmap:
 - [ ] Determine the architecture and tech stack (could use WASM, GraphQL, Postgres, Docker)
 - [ ] Determine UI/UX design (could do a mockup in Figma)
 - [ ] Record a live demo
+- [ ] Add CI/CD to catch production issues
