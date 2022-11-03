@@ -1,6 +1,6 @@
 # flight_path
 
-The following is a practice exercise for Rust.
+The purpose of this exercise is to refresh my Rust skills.
 
 Overview: 
 - In order to determine the flight path of a person, we must sort through all of their flight records.
