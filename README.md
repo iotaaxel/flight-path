@@ -32,11 +32,3 @@ Example Runs:
   Result:   ['SFO', 'EWR']
   Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'GSO'], ['GSO', 'IND'], ['IND', 'EWR']]`.
   ```
-
-Roadmap:
-- [X] Basic API functionality (i.e. take flight list and output starting and ending airports)
-- [ ] Add unit tests and error handling (ex: empty list, invalid input, no common airport codes)
-- [ ] Determine the architecture and tech stack (could use WASM, GraphQL, Postgres, Docker)
-- [ ] Determine UI/UX design (could do a mockup in Figma)
-- [ ] Record a live demo
-- [ ] Add CI/CD to catch production issues
