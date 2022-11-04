@@ -1,7 +1,6 @@
-# flight_path
+# flight-path
 
-The purpose of this exercise is to refresh my Rust skills.
-
+## Setup
 Overview: 
 - In order to determine the flight path of a person, we must sort through all of their flight records.
 
@@ -30,3 +29,7 @@ Example Runs:
   Result:   ['SFO', 'EWR']
   Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'GSO'], ['GSO', 'IND'], ['IND', 'EWR']]`.
   ```
+## TODO
+- [x] Implement in Rust
+- [ ] Implement as RESTful microservice with Spring Boot
+- [ ] Implement as RESTful microservice with Django
