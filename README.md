@@ -4,9 +4,6 @@
 Overview: 
 - In order to determine the flight path of a person, we must sort through all of their flight records.
 
-Goal: 
-- Create a microservice API to track a given person’s flight path. 
-
 Considerations: 
 - These flights may not be listed in order and will need to be sorted to find the total flight paths starting and ending airports.
 
