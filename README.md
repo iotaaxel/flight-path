@@ -29,16 +29,3 @@ Example Runs:
   Result:   ['SFO', 'EWR']
   Explanation: Once sorted by airport code, you get `[['SFO', 'ATL'], ['ATL', 'GSO'], ['GSO', 'IND'], ['IND', 'EWR']]`.
   ```
-## TODO
-- [x] Implement in Rust
-- [ ] Implement in Rust but as a RESTful microservice (Rust)
-- [ ] Implement in Go as a RESTful microservice (Go)
-- [ ] Implement as RESTful microservice with Spring Boot (Java)
-- [ ] Implement as RESTful microservice with Django (Python)
-
-## Other Implementations
-- [Flight Path (in Rust)](https://github.com/iotaaxel/flight-path)
-- [Flight Path (in Rust but REST API)](https://github.com/iotaaxel/flight-path-restful)
-- [Flight Path (in Go)](https://github.com/iotaaxel/flight-path-go)
-- [Flight Path (in Java)](https://github.com/iotaaxel/flight-path-java)
-- [Flight Path (in Python)](https://github.com/iotaaxel/flight-path-python)
